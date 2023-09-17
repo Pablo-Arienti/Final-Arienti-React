@@ -1,0 +1,18 @@
+.cartCounter {
+
+    padding: 10px;
+
+}
+.product__name {
+
+    text-align: center;
+
+}
+
+.product__price {
+
+    text-align: center;
+    font-weight: bold;
+    color: red;
+
+}

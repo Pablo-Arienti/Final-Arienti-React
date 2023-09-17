@@ -1,0 +1,23 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+    font-family: "Tektur";
+
+
+}
+html, body{
+    background-image: url(https://images.alphacoders.com/116/1169862.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.count {
+
+    display: flex;
+    text-align: center;
+}
+
+

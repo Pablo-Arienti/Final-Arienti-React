@@ -1,0 +1,38 @@
+.product {
+
+    border: 1px solid white;
+    border-radius: 12px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.product__Img {
+
+    border-radius: 12px;
+    display: block;
+    width: 250px;
+    height: 200px;
+    margin: auto;
+}
+
+.product__Price {
+
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.carrito {
+
+    border: 2px solid white;
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.headertotal{
+    background: rgb(0, 0, 0, 0.7);
+    margin-bottom: 5px;
+    
+}
+
+.linkLogo {
+    text-decoration: none;
+    color: white;
+}
+.linkLogo:hover{ 
+    color: rgb(62, 232, 20);
+}
+
+.titleNav {
+
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+.btn__nav {
+
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(44, 182, 9);
+    color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+}
+.btn__nav:hover {
+    background-color: rgb(62, 232, 20);
+}
+a, a:link, a:visited, a:active, a:hover { 
+    text-decoration: none;
+    background: none;
+    color: antiquewhite;
+ } 
+.navContainer {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    list-style:none;
+}

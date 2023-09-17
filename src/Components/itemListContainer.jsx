@@ -13,7 +13,6 @@ const ItemListContainer = ({ categories }) => {
   useEffect(() => {
     setLoading(true);
 
-    // Define una referencia de colección basada en la categoría seleccionada
     let collectionRef;
     if (categoriaId) {
       collectionRef = query(

@@ -37,13 +37,13 @@ const ItemDetailContainer = () => {
     <div className='itemDetailContainer'>
       {loading ? (
         <div class="spinner-border text-success" role="status">
-        <span class="visually-hidden">Loading...</span>
+        <span class="visually-hidden">Cargando...</span>
       </div>
       
       ) : product ? (
         <ItemDetail {...product} />
       ) : (
-        <p>El producto no existe.</p>
+        <p>No se encontro el producto</p>
       )}
     </div>
   );

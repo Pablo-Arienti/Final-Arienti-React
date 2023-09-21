@@ -7,11 +7,11 @@ import './cart.css'
 const Cart = () => {
   const { cart, clearCart } = useContext(CartContext);
 
-  const formato = (precio) => {
-    return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' }).format(precio);
+  const formato = (price) => {
+    return new Intl.NumberFormat('es-CL', { style: 'currency', currency: 'CLP' }).format(price);
   };
 
-  const total = cart.reduce((acc, item) => acc + (item.precio * item.quantity), 0)
+  const total = cart.reduce((acc, item) => acc + (item.price * item.quantity), 0)
 
   return (
 
@@ -38,13 +38,13 @@ const Cart = () => {
                 
                     <div>
 
-                        <h5 className="nombreCar">{item.nombre}</h5>
+                        <h5 className="nombreCar">{item.title}</h5>
 
                         <h6>Cantidad: {item.quantity}</h6>
 
-                        <h6>Precio: {formato(item.precio)}</h6>
+                        <h6>precio: {formato(item.price)}</h6>
 
-                        <h6>Sub-Total: {formato(item.precio * item.quantity)}</h6>
+                        <h6>Sub-Total: {formato(item.price * item.quantity)}</h6>
 
                     </div>                   
             </div>
@@ -63,7 +63,7 @@ const Cart = () => {
             <div className='counterFinal2'> 
 
               <button className='btnLimpiar' onClick={() => clearCart()}>Vaciar Carrito</button>
-              <Link to='/checkout'><button className='btnCheck'>Checkout</button></Link>
+              <Link to='/checkout'><button className='btnCheck'>Finalizar compra</button></Link>
               <Link to="/" ><button className="btnCheck1">Volver al Catálogo</button></Link>
 
             </div>

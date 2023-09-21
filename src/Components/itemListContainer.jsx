@@ -40,17 +40,24 @@ const ItemListContainer = ({ categories }) => {
   }, [categoriaId]);
 
   return (
+    
     <div>
-      <h1 className='saludo'>Bienvenidos a la tienda de H4rd-Store</h1>
-      <h2 className='h2Product'>Estos son los productos:</h2>
-
-      <section className='products__section'>
+    <h1 className='saludo'>Bienvenidos a la tienda de H4rd-Store</h1>
+    <h2 className='h2Product'>Estos son los productos:</h2>
+    <section className='products__section d-flex justify-content-center'>
+      {loading ? ( 
+         <div class="spinner-border text-success" role="status">
+         <span class="visually-hidden">Cargando...</span>
+       </div>
+      ) : (
         <div>
           <ItemList products={products} />
         </div>
-      </section>
-    </div>
-  );
-};
+      )}
+    </section>
+  </div>
+);
+}
+
 
 export default ItemListContainer;

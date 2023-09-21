@@ -38,6 +38,7 @@ const CheckOut = () => {
             <div className="container">
 
                 <h1 className="gracias">GRACIAS POR COMPRAR EN H4RD-STORE STORE</h1>
+                <p className="compraId">Le llegara toda la información respecto al pago via email.</p>
                 <p className="compraId">Tú ID de compra es: {pedidoId}</p>
 
             </div>

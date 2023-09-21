@@ -29,7 +29,7 @@
 .nombreCar {
 
     font-size: 40px;
-    color: yellow;
+    color: rgb(193, 193, 7);
 }
 
 .total {
@@ -64,7 +64,7 @@
 .btnCheck {
 
     border: 2px solid white;
-    background-color: cadetblue;
+    background-color: rgb(22, 238, 7);
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;

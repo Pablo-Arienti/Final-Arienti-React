@@ -1,5 +1,5 @@
-import ItemListLink from './ItemListLink';
-import CardWid from './cardWidget';
+import ItemListLink from '../ItemListLink/ItemListLink';
+import CardWid from '../cardWidget/cardWidget';
 import './navBar.css';
 import { Link, useLocation } from 'react-router-dom';
 

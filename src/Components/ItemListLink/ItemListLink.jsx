@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./navBar.css"
+import "../navBar/navBar.css"
 const ItemListLink = (props) => {
   return (
     <ul className="navContainer">
